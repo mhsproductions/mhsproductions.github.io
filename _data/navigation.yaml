@@ -1,0 +1,13 @@
+# General format: delete any unused fields, : and \n characters break things
+# name: name
+# link: link
+# prefix: directory after base url
+# dropdown:
+  # - name: name
+  #   link: link
+
+- name: About
+  link: about.html
+
+- name: Projects
+  link: projects.html
