@@ -1,0 +1,9 @@
+# General format: delete any unused fields, : and \n characters break things
+# name: name
+# link: link
+# date: M/D/Y
+
+- name: 2048
+  link: 2048.html
+  date: Summer 2019
+  languages: Java

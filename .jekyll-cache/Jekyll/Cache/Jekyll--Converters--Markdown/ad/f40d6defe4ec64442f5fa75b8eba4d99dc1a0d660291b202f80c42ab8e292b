@@ -1,0 +1,24 @@
+I"™<!-- This file pulls from projects.yaml -->
+
+<h3 id="homework">Homework</h3>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date Built</th>
+      <th>Languages</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    
+    <tr style="text-align: left">
+        <td><a href="//2048.html">2048</a></td>
+        <td>Summer 2019</td>
+        <td>Java</td>
+    </tr>
+    
+  </tbody>
+</table>
+:ET
