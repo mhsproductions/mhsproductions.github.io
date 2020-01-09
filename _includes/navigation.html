@@ -4,13 +4,11 @@
       {% for item in site.data.navigation %}
       {% if item.dropdown[0] %}
       <li id="{{ item.name }}">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="{{ item.link }}">{{ item.name }}
+          <a class="dropdown-toggle" data-toggle="dropdown" href="/{{ item.link }}">{{ item.name }}
               <span class="caret"></span></a>
       </li>
-      {% else if item.prefix %}
-      <li id="{{ item.name }}"><a href="{{ item.prefix }}/{{ item.link }}">{{ item.name }}</a></li>
       {% else %}
-      <li id="{{ item.name }}"><a href="{{ item.link }}">{{ item.name }}</a></li>
+      <li id="{{ item.name }}"><a href="/{{ item.link }}">{{ item.name }}</a></li>
       {% endif %}
       {% endfor %}
   </ul>
